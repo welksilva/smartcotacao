@@ -1,0 +1,50 @@
+body{background: #1d1c1c;}
+textarea:focus, input:focus{outline: none;}
+
+@font-face{
+	font-family: "Nexa-Light";
+	src: url('font/Nexa-Light.otf');
+}
+@font-face{
+    font-family: "Nexa-Bold";
+    src: url('font/Nexa-Bold.otf');
+}
+
+#barcodevideo, #barcodecanvas, #barcodecanvasg { width: 100%;}
+
+#barcodecanvasg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#result {
+	font-family: "Nexa-Bold";
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #fff;
+}
+
+#barcode {position: relative;}
+
+#barcodecanvas {display: none;}
+
+.caditem button, .valor{
+	width: 70%;
+	height: 30px;
+	margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 23px;
+	font-family: "Nexa-Light";
+}
+.valor{
+	text-align: center;
+}
+.caditem button{
+	border: none;
+	background: #e62e21;
+	color: #fff;
+}
